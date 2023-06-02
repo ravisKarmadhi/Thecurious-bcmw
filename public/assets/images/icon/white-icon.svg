@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" width="35" height="35">
+	<title>Rectangle 1599 (1)-svg</title>
+	<defs>
+		<image width="64" height="64" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMS4wOTEiIGhlaWdodD0iMzEuMDkxIiB2aWV3Qm94PSIwIDAgMzEuMDkxIDMxLjA5MSI+CiAgPHJlY3QgaWQ9IlJlY3RhbmdsZV8xNTk5IiBkYXRhLW5hbWU9IlJlY3RhbmdsZSAxNTk5IiB3aWR0aD0iNDEuNTkyIiBoZWlnaHQ9IjIuMzc2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOS40MSAzMS4wOTEpIHJvdGF0ZSgtMTM1KSIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<use id="Rectangle 1599 (1)" href="#img1" transform="matrix(0,-0.5,.5,0,1,33)"/>
+	<path id="Rectangle_1599" class="s0" d="m30.4 33.1l-29.4-29.4 1.7-1.7 29.4 29.4z"/>
+</svg>

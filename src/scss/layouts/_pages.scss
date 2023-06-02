@@ -1,0 +1,701 @@
+// PAGINATION CSS
+.breadcrumbs-products {
+    li {
+        &::after {
+            position: absolute;
+            width: 1px;
+            height: 17px;
+            background-color: #fafafa;
+            content: '';
+            display: block;
+            right: 0;
+            top: 0;
+            opacity: 50%;
+        }
+        &:last-child {
+            &::after {
+                display: none;
+            }
+            a {
+                opacity: 1 !important;
+            }
+        }
+    }
+}
+// HERO HOME CSS
+.home-hero {
+    .main-img {
+        height: 565px;
+        @include media-breakpoint-down(lg) {
+            height: 371px;
+        }
+    }
+    .right-content {
+        .right-img {
+            height: 273px;
+            @include media-breakpoint-down(lg) {
+                height: 288px;
+            }
+        }
+    }
+}
+// HOEM CATEGORY CSS
+.home-category {
+    .row {
+        margin: 0 -15px;
+        @include media-breakpoint-up(xl) {
+            @include row-cols(5);
+        }
+        .single-cate {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            .cate-img {
+                height: 221px;
+            }
+        }
+    }
+}
+.home-category-home {
+    @include media-breakpoint-down(md) {
+        .row {
+            margin: 0 -4px;
+            .single-cate {
+                padding-left: 4px !important;
+                padding-right: 4px !important;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            .cate-img {
+                height: 200px !important;
+            }
+        }
+    }
+}
+// HOME BENEFITS CSS
+.home-benefits {
+    padding-top: 86px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 90px;
+    }
+    .single-benefit {
+        background-color: rgba(255, 255, 255, 0.06);
+        padding: 20px 0;
+        @include media-breakpoint-down(lg) {
+            padding: 21px 36px;
+        }
+    }
+}
+// VIEW PRODUCTS CSS
+.view-products-section {
+    .view-products-box {
+        padding: 85px 100px 95px 72px;
+        @include media-breakpoint-down(lg) {
+            padding: 60px 35px;
+        }
+    }
+    .click-btn {
+        width: 191px;
+        min-width: 191px;
+        height: 191px;
+        line-height: 20px;
+        padding: 0 35px;
+        @include media-breakpoint-down(lg) {
+            width: 141px;
+            min-width: 141px;
+            height: 141px;
+            padding: 0 25px;
+        }
+    }
+    .order-now-tommorow {
+        @include media-breakpoint-down(lg) {
+            top: initial !important;
+        }
+    }
+}
+// CHAT NOW CSS
+.chat-now-section {
+    .chat-now-img {
+        border: 3px solid #BCAD8B;
+        width: 105px;
+        height: 105px;
+        min-width: 105px;
+        @include media-breakpoint-down(lg) {
+            margin: 0 auto;
+        }
+    }
+}
+// VIDEO CSS
+.video-sectiom {
+    padding-top: 180px;
+    padding-bottom: 120px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 120px;
+    }
+    .video-img {
+        height: 679px;
+        @include media-breakpoint-down(lg) {
+            height: 415px;
+        }
+    }
+}
+// BLOG CSS
+.blog-section {
+    padding-bottom: 80px;
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 150px;
+    }
+    .feature-content {
+        padding: 90px 155px 45px 40px;
+    }
+    .single-blog {
+        .news-img {
+            height: 515px;
+            @include media-breakpoint-down(lg) {
+                height: 360px;
+            }
+        }
+        .content {
+            top: 85%;
+            @include media-breakpoint-down(lg) {
+                top: auto;
+                bottom: -35px;
+            }
+        }
+    }
+    .blog-main-img {
+        height: 447px;
+    }
+}
+// HELPFULL CSS
+.helpfull-section-home {
+    padding-top: 270px;
+    padding-bottom: 195px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 0;
+        padding-bottom: 115px;
+    }
+}
+// REVIEW SLIDER CSS
+.review-slider-section {
+    .single-review-slider {
+        padding-top: 50px;
+        padding-bottom: 90px;
+        @include media-breakpoint-down(lg) {
+            padding-top: 40px;
+            padding-bottom: 75px;
+        }
+    }
+}
+// AWARD SLIDER CSS
+.award-slider-section {
+    padding-top: 165px;
+    padding-bottom: 130px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 115px;
+        padding-bottom: 140px;
+    }
+}
+// CATEGORY CSS
+.catagory-category {
+    @include media-breakpoint-down(lg) {
+        .row {
+            margin: 0 -2px !important;
+            .single-cate {
+                padding-left: 2px !important;
+                padding-right: 2px !important;
+                h5 {
+                    text-transform: capitalize !important;
+                }
+            }
+        }
+    }
+    .category-list {
+        padding-top: 117px;
+        padding-bottom: 20px;
+        @include media-breakpoint-down(lg) {
+            padding-top: 60px;
+            padding-bottom: 0;
+            .cate-img {
+                height: 111px !important;
+            }
+        }
+    }
+}
+// PRODUCTS CSS
+.product-section {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 60px;
+        padding-bottom: 70px;
+        .left-section {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            overflow-x: hidden;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            background-color: #343434 !important;
+            padding: 0;
+            .filter-menu {
+                height: 100%;
+                background-color: #343434 !important;
+            }
+        }
+    }
+    .filter-menu {
+        background-color: rgba(255, 255, 255, 0.10);
+        padding: 12px 24px 57px 24px;
+        @include media-breakpoint-down(lg) {
+            padding: 36px;
+        }
+        .accordion {
+            .accordion-item {
+                .accordion-button {
+                    padding: 36px 0 10px 0 !important;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+                    border-radius: 0;
+                    &::after {
+                        background-image: url("../images/icon/cross.svg");
+                        width: 11px;
+                        height: 11px;
+                        background-size: cover;
+                        transform: rotate(0deg) !important;
+                    }
+                }
+                .collapsed {
+                    &::after {
+                        transform: rotate(45deg) !important;
+                    }
+                }
+                .accordion-body {
+                    padding-top: 30px;
+                    .form-group-checkbox {
+                        label {
+                            &::before {
+                                content: '';
+                                -webkit-appearance: none;
+                                background-color: #fff;
+                                width: 23px;
+                                min-width: 23px;
+                                height: 23px;
+                                display: inline-block;
+                                border: 1px solid black;
+                                position: relative;
+                                vertical-align: middle;
+                                cursor: pointer;
+                                margin-right: 12px;
+                                border-radius: 3px;
+                            }
+                        }
+                        input:checked+label {
+                            &::after {
+                                content: "";
+                                display: block;
+                                left: 8px;
+                                position: absolute;
+                                top: 6px;
+                                width: 6px;
+                                height: 10px;
+                                border: solid $primary;
+                                border-width: 0 2px 2px 0;
+                                transform: rotate(45deg);
+                                -webkit-transform: rotate(45deg);
+                                -ms-transform: rotate(45deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .right-section {
+        @include media-breakpoint-down(lg) {
+            .products-img {
+                height: 183px !important;
+            }
+            .row {
+                margin: 0 -4px;
+            }
+        }
+        .single-products {
+            margin-bottom: 60px;
+            @include media-breakpoint-down(lg) {
+                padding: 0 4px !important;
+                margin-bottom: 45px;
+            }
+        }
+    }
+    .pagination {
+        ul {
+            li {
+                height: 40px;
+                line-height: 40px;
+                width: 40px;
+                &.active {
+                    background-color: rgba(255, 255, 255, 0.14);
+                }
+            }
+        }
+    }
+}
+// RANGE CSS
+.range-section {
+    padding-bottom: 110px;
+    .left-content {
+        padding: 55px 15px 10px 72px;
+        @include media-breakpoint-down(lg) {
+            padding: 45px 56px 50px 29px;
+        }
+    }
+    .range-img {
+        height: 267px;
+        @include media-breakpoint-down(lg) {
+            height: 199px;
+        }
+    }
+}
+// CATEGORY INFO CSS
+.cate-info-section {
+    padding-top: 215px;
+    padding-bottom: 200px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 90px;
+        padding-bottom: 0px;
+    }
+}
+// AWARD SLIDER CATEGORY CSS
+.award-slider-cate {
+    padding-top: 205px;
+    padding-bottom: 210px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 110px;
+        padding-bottom: 135px;
+    }
+}
+// PRODUCTS DETAILS CSS
+.product-details {
+    .products-img-section {
+        height: 735px;
+        @include media-breakpoint-down(lg) {
+            height: 520px;
+        }
+        .small-slider-content {
+            width: 160px;
+        }
+        .pre-order-btn-top {
+            z-index: 1;
+            width: 129px;
+            height: 39px;
+            line-height: 39px;
+            border-radius: 20px;
+            @include media-breakpoint-down(lg) {
+                margin-top: 40px !important;
+                margin-right: 36px !important;
+            }
+        }
+    }
+    .products-label {
+        label {
+            height: 40px;
+            border-radius: 20px;
+            line-height: 40px;
+            background-color: rgba(255, 255, 255, 0.10);
+            &:first-child {
+                padding: 0 37px;
+            }
+            &:nth-child(2) {
+                padding: 0 20px;
+            }
+        }
+    }
+    .addcard {
+        .subcart {
+            display: contents;
+            input {
+                min-width: 46px;
+                width: 46px;
+                height: 51px;
+                border-radius: 5px 0 0 5px;
+                border-right: 1px solid #D9D9D9 !important;
+            }
+            .add-substract {
+                button {
+                    height: 25.5px;
+                    min-width: 35px;
+                    width: 35px;
+                    &:first-child {
+                        border-radius: 0 5px 0 0;
+                    }
+                    &:nth-child(2) {
+                        background-color: #D9D9D9;
+                        border-radius: 0 0 5px 0;
+                    }
+                }
+            }
+        }
+        .like {
+            width: fit-content;
+        }
+        .delivery-details {
+            .details {
+                -webkit-box-orient: vertical;
+                display: -webkit-box !important;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+            }
+        }
+    }
+}
+// DESCRIPTION CSS
+.product-description {
+    padding: 200px 0;
+    @include media-breakpoint-down(lg) {
+        padding-top: 110px;
+        padding-bottom: 130px;
+    }
+}
+// DIMENSION CSS
+.dimension-section {
+    background-color: #3A3637;
+    padding: 72px 0;
+    .nav-pills {
+        button {
+            margin-bottom: 10px;
+            height: 52px;
+            @include media-breakpoint-down(lg) {
+                width: auto !important;
+                height: 48px;
+                margin-bottom: 4px !important;
+            }
+            @include media-breakpoint-up(lg) {
+                &:last-child {
+                    margin-bottom: 0 !important;
+                }
+            }
+            &.active {
+                background-color: rgba(255, 255, 255, 0.22) !important;
+            }
+        }
+    }
+    .tab-content {
+        .product-label {
+            ul {
+                padding-bottom: 32px;
+                background-color: rgba(255, 255, 255, 0.22) !important;
+                li {
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+                }
+            }
+        }
+        .product-details {
+            ul {
+                padding-bottom: 32px;
+                background-color: rgba(255, 255, 255, 0.1) !important;
+                li {
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+                }
+            }
+        }
+    }
+}
+// PRODUCTS RANGE  CSS
+.product-range-section {
+    padding-top: 135px;
+}
+// VIEW FULL CSS
+.view-full-range {
+    padding-top: 230px;
+    padding-bottom: 140px;
+    @include media-breakpoint-down(lg) {
+        padding-top: 180px;
+    }
+    .range-img {
+        width: 123px;
+        height: 123px;
+        min-width: 123px;
+        @include media-breakpoint-down(lg) {
+            width: 105px;
+            height: 105px;
+            min-width: 105px;
+        }
+    }
+}
+// PRODUCTS CSS
+.helpfull-section-products {
+    padding-bottom: 270px;
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 210px;
+    }
+}
+// FAQ CSS
+.faq-section {
+    .accordion {
+        .accordion-item {
+            border-bottom: 1px solid rgba(112, 112, 112, 0.36);
+            .accordion-button {
+                &::after {
+                    background-image: url("../images/icon/faq.svg");
+                    width: 37px;
+                    height: 37px;
+                    background-size: cover;
+                    transform: rotate(45deg) !important;
+                }
+            }
+            .collapsed {
+                &::after {
+                    transform: rotate(0deg) !important;
+                }
+            }
+        }
+    }
+}
+// DELIVERY RETURN CSS
+.delivery-return-section {
+    padding: 250px 0;
+    @include media-breakpoint-down(lg) {
+        padding-top: 180px;
+        padding-bottom: 90px;
+    }
+}
+// AWARD SLIDER CSS
+.award-slider-products {
+    padding-top: 115px;
+    padding-bottom: 150px;
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 100px;
+    }
+}
+// BASKET PRODUCTS CSS
+.basket-page {
+    background-color: #f8f8f8;
+}
+// BASKET SECTION CSS
+.basket-section {
+    padding-bottom: 105px;
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 0;
+        .basket-border{
+            border:0 !important;
+        }
+    }
+    .basket-single {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        @include media-breakpoint-down(lg) {
+            border:none !important;
+        }
+        .pro-img {
+            height: 123px;
+            @include media-breakpoint-down(lg) {
+                height: 151px;
+            }
+        }
+    }
+    .promo-code {
+        box-shadow: 0px 0px 20px #0000000F;
+        input {
+            background-color: #F8F8F8;
+            padding-right: 120px;
+            &::placeholder {
+                color: rgba(15, 19, 18, 0.22);
+                letter-spacing: $spaceXS;
+            }
+        }
+        button {
+            padding: 0 32px;
+        }
+    }
+    .promo-code-mobile{
+        input{
+            border:1px solid #231F20;
+            &::placeholder{
+                color:rgb(112, 112, 112, 0.50);
+            }
+        }
+    }
+    .continue-shop{
+        @include media-breakpoint-down(lg) {
+            border-top:1px solid rgba(93, 114, 70, 0.16) !important;
+            border-bottom:1px solid rgba(93, 114, 70, 0.16) !important;
+            a{
+                text-decoration: underline !important;
+            }
+        }
+    }
+    .checkout-continue {
+        box-shadow: 0px 3px 36px #00000012;
+        padding: 50px 45px 40px 45px;
+        border-radius: 15px;
+        @include media-breakpoint-down(lg) {
+            box-shadow: none !important;
+            background:transparent !important;
+            padding:25px 0 85px 0;
+            p{
+                color: $silentBlack !important;
+            }
+        }
+    }
+}
+// CHECKOUT SECTION CSS
+.checkout-section {
+    padding-top: 55px;
+    padding-bottom: 165px;
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 100px;
+    }
+    .form-shipping {
+        .form-simple {
+            &::placeholder {
+                opacity: 0.31;
+                color: #0F1312;
+                @include media-breakpoint-down(lg) {
+                    opacity: 0.60;
+                }
+            }
+        }
+    }
+    .order-summary {
+        .checkout-img {
+            height: 97px;
+            min-width: 95px;
+            width: 95px;
+        }
+        .single-cart {
+            height: 97px;
+        }
+        .coupon-code-input {
+            input {
+                height: 48px;
+                line-height: 48px;
+                @include media-breakpoint-down(lg) {
+                    input {
+                        &::placeholder {
+                            color: #0F1312 !important;
+                        }
+                    }
+                }
+            }
+            button {
+                width: 64px;
+                height: 40px;
+                line-height:40px;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            .card-custom {
+                background-color: transparent !important;
+            }
+        }
+    }
+}
+// WILD LIFE CSS
+.wild-life-slider {
+    padding-top: 110px;
+}

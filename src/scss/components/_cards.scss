@@ -1,0 +1,33 @@
+.card-hover {
+    img {
+        transform: scale(1);
+        transition: 0.4s all ease-in-out;
+    }
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
+// SINGLE PRODUCTS CARD
+.single-products{
+    .products-img{
+        height: 355px;
+        @include media-breakpoint-down(lg) {
+            height:260px;
+        }
+    }
+    button{
+        padding:9.5px;
+        
+        &:last-child{
+            border:1px solid $white !important;
+        }
+    }
+}
+// SINGLE CATEGORY CARD
+.single-category{
+    .cate-img{
+        height:350px;
+    }
+}

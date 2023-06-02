@@ -1,0 +1,136 @@
+/*******************************************************************************
+******************************* COLOUR VARIABLES *******************************
+*******************************************************************************/
+$primary:#231F20;
+$secondary:#CBB484;
+$lightBlack:#2D3034;
+$extraDarkGray:#212121;
+$darkGray:#393939;
+$white:#ffffff;
+$gray:#707070;
+$golden:#BFAD87;
+$extraLightBlack:#141414;
+$extraLightTwoBlack:#1D1D1D;
+$lightGray:#E8E8E8;
+$silentBlack:#3C3C3C;
+$silentGray:#BCBCBC;
+/*******************************************************************************
+******************************* FONTS VARIABLES *******************************
+*******************************************************************************/
+$fontX:11px;
+$fontXX:12px;
+$fontXS:13px; 
+$fontXM:14px;
+$fontXL:15px;
+$fontS:16px;
+$fontSX:17px;
+$fontSS:18px;
+$fontSM:19px; 
+$fontSL:20px;
+$fontM:23px;
+$fontMX:24px;
+$fontMS:25px;
+$fontMM:26px;
+$fontML:27px;
+$fontL:28px;
+$fontLX:29px;
+$fontLS:30px; 
+$fontLM:31px;
+$fontLL:32px;
+$font2XL:33px; 
+$font3XL:35px;
+$font4XL:36px;
+$font5XL:40px;
+$font6XL:41px;
+$font7XL:52px;
+$font8XL:75px;
+$font9XL:82px;
+$fontXXL:121px;
+/*******************************************************************************
+******************************* LINE HEIGHT *******************************
+*******************************************************************************/
+$smallLeading:30px;
+$mediumLeading:39px;
+$Leading:23px;
+$largeLeading:36px;
+/*******************************************************************************
+******************************* BORDER RADIUS *******************************
+*******************************************************************************/
+$borderRadiusX:5px;
+$borderRadiusS:10px;
+/*******************************************************************************
+******************************* LETTER SPACING *******************************
+*******************************************************************************/
+$spaceX:-0.23px;
+$spaceXX:-0.16px;           
+$spaceXS:-0.14px;
+$spaceXM:0.11px;
+$spaceXL:0.14px;
+$spaceS:0.16px;
+$spaceSX:0.17px;
+$spaceSS:0.18px;
+$spaceSM:0.19px;
+$spaceSL:0.20px;
+$spaceM:0.57px;
+$spaceMX:0.73px;
+$spaceMS:0.78px;
+$spaceMM:0.99px;
+$spaceML:1.08px;
+$spaceL:1.23px;
+$spaceLX:2.97px;
+/*******************************************************************************
+******************************* ANIMATION VARIABLES ****************************
+*******************************************************************************/
+@mixin generate-transition($name, $duration, $type) {
+    -webkit-transition: $name $duration $type; /* Safari 4+ */
+    -moz-transition: $name $duration $type; /* Fx 5+ */
+    -o-transition: $name $duration $type; /* Opera 12+ */
+    transition: $name $duration $type; /* IE 10+, Fx 29+ */
+  }
+  @mixin generate-animation-delay($seconds) {
+    -webkit-animation-delay: $seconds; /* Safari 4+ */
+    -moz-animation-delay: $seconds; /* Fx 5+ */
+    -o-animation-delay: $seconds; /* Opera 12+ */
+    animation-delay: $seconds; /* IE 10+, Fx 29+ */
+  }
+  @mixin generate-placeholder($color, $fontsize) {
+    &::-webkit-input-placeholder {
+      color: $color;
+      font-size: $fontsize;
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: $color;
+      font-size: $fontsize;
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      color: $color;
+      font-size: $fontsize;
+    }
+    &:-ms-input-placeholder {
+      color: $color;
+      font-size: $fontsize;
+    }
+  }
+  @mixin generate-scale-transition() {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.1);
+  }
+  @mixin generate-transform($transform) {
+    -webkit-transform: $transform; /* Safari and Chrome */
+    -moz-transform: $transform; /* Firefox */
+    -ms-transform: $transform; /* IE 9 */
+    -o-transform: $transform; /* Opera */
+    transform: $transform;
+  }
+  @mixin generate-filter($filter) {
+    -webkit-filter: $filter;
+    filter: $filter;
+    -moz-filter: $filter;
+    -o-filter: $filter;
+  }
+  $enable-negative-margins: true;

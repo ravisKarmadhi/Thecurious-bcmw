@@ -1,0 +1,63 @@
+.footer-section {
+    .insta-footer {
+        background: linear-gradient(to bottom, transparent 0%, transparent 50%, $extraLightTwoBlack 50%, $extraLightTwoBlack 100%);
+            @include media-breakpoint-down(lg) {
+                background: $extraLightTwoBlack !important;
+            }
+        .instagram-section {
+            .insta-img {
+                height: 240px;
+                @include media-breakpoint-down(lg) {
+                    height: 134px;
+                }
+            }
+        }
+    }
+}
+footer {
+    padding-top: 34px !important;
+    padding-bottom: 58px !important;
+    @include media-breakpoint-down(lg) {
+        padding-top: 84px;
+        padding-bottom: 110px !important;
+        .social-icon{
+            img{
+                width:51px;
+                height:51px;
+            }
+        }
+    }
+    .mail-chip {
+        input {
+            background-color: rgba(255, 255, 255, 0.10);
+            height: 55px;
+            line-height: 55px;
+            padding-left: 27px;
+            @include media-breakpoint-down(lg) {
+                height: 52px;
+                line-height: 52px;
+                padding-left: 24px;
+            }
+            &::placeholder {
+                color: $white;
+                @include media-breakpoint-down(lg) {
+                    opacity: 0.44;
+                }
+            }
+        }
+        button {
+            height: 45px;
+            width: 51px;
+            top: 5px;
+            right: 6px;
+            box-shadow: 0px 0px 16px #000000;
+            @include media-breakpoint-down(lg) {
+                height: 52px;
+                width: 64px;
+                top: 0;
+                right: 0;
+                border-radius: 13px;
+            }
+        }
+    }
+}

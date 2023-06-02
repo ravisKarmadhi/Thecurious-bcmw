@@ -1,0 +1,166 @@
+// slick-overflow
+.slick-overflow {
+  overflow: hidden;
+  .slick-slider {
+    .slick-list {
+      overflow: visible;
+    }
+  }
+}
+section{
+  overflow-x: hidden;
+}
+// Text overflow CSS 
+.text-truncate {
+  -webkit-box-orient: vertical;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.text-truncate2 {
+  -webkit-line-clamp: 2;
+}
+.text-truncate3 {
+  -webkit-line-clamp: 3;
+}
+.text-truncate4 {
+  -webkit-line-clamp: 4;
+}
+.text-truncate5 {
+  -webkit-line-clamp: 5;
+}
+.text-truncate6 {
+  -webkit-line-clamp: 6;
+}
+.text-truncate8 {
+  -webkit-line-clamp: 8;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+.top-left-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-center {
+  top: 50%;
+  left: 0%;
+  transform: translate(-0%, -50%);
+}
+.bottom-left {
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+// CUSTOM PADDING MARGIN
+.pt-half {
+  @include media-breakpoint-up(lg) {
+    padding-top: 2px;
+  }
+}
+.pb-half {
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 2px;
+  }
+}
+.ps-half {
+  @include media-breakpoint-up(lg) {
+    padding-left: 2px;
+  }
+}
+.pe-half {
+  @include media-breakpoint-up(lg) {
+    padding-right: 2px;
+  }
+}
+.mt-half {
+  @include media-breakpoint-up(lg) {
+    margin-top: 2px;
+  }
+}
+.mb-half {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 2px;
+  }
+}
+.ms-half {
+  @include media-breakpoint-up(lg) {
+    margin-left: 2px;
+  }
+}
+.me-half {
+  @include media-breakpoint-up(lg) {
+    margin-right: 2px;
+  }
+}
+.px-36 {
+  @include media-breakpoint-up(lg) {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+}
+// FONT FAMILY CSS
+.articulat-m {
+  font-family: "ArticulatCF-Medium";
+}
+.articulat-n {
+  font-family: "ArticulatCF-Normal";
+}
+.articulat-l {
+  font-family: "ArticulatCF-Light";
+}
+.din-b {
+  font-family: "DIN-2014_Bold";
+}
+.din-l {
+  font-family: "DIN-2014_Light";
+}
+.din-r {
+  font-family: "DIN-2014_Regular";
+}
+.res-din-r {
+  @include media-breakpoint-down(lg) {
+    font-family: "DIN-2014_Regular" !important;
+  }
+}
+.din-d {
+  font-family: "DIN-2014_Demi";
+}
+.futura-m {
+  font-family: "futura medium bt";
+}
+.futura-l {
+  font-family: "futura light bt";
+}
+.devider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.30);
+}
+.border-t {
+  border-width: 1px 0 0 0 !important;
+}
+.border-b {
+  border-width: 0 0 1px 0 !important;
+}
+.res-radius-0 {
+  @include media-breakpoint-down(lg) {
+    border-radius: 0 !important;
+  }
+}
+.px-p {
+  @include media-breakpoint-down(lg) {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+}
+.px-p-0 {
+  @include media-breakpoint-down(lg) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

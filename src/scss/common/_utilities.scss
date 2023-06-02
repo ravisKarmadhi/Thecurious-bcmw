@@ -1,0 +1,377 @@
+// Theme Content CSS 
+.theme-content {}
+// BACKGROUND COLOR
+.bg-primary {
+    background-color: $primary !important;
+}
+.bg-secondary {
+    background-color: $secondary;
+}
+.bg-lightBlack {
+    background-color: $lightBlack;
+}
+.bg-extraDarkGray {
+    background-color: $extraDarkGray;
+}
+.bg-darkGray {
+    background-color: $darkGray;
+}
+.bg-white {
+    background-color: $white;
+}
+.bg-gray {
+    background-color: $gray;
+}
+.bg-golden {
+    background-color: $golden;
+}
+.bg-extraLightBlack {
+    background-color: $extraLightBlack;
+}
+.bg-lightGray {
+    background-color: $lightGray;
+}
+.bg-silentBlack {
+    background-color: $silentBlack;
+}
+.bg-extraLightTwoBlack {
+    background-color: $extraLightTwoBlack;
+}
+// TEXT COLOR
+.text-primary {
+    color: $primary;
+}
+.text-secondary {
+    color: $secondary;
+}
+.text-lightBlack {
+    color: $lightBlack;
+}
+.text-darkGray {
+    color: $darkGray;
+}
+.text-extraDarkGray {
+    color: $extraDarkGray;
+}
+.text-white {
+    color: $white;
+}
+.text-gray {
+    color: $gray;
+}
+.text-golden {
+    color: $golden;
+}
+.text-extraLightBlack {
+    color: $extraLightBlack;
+}
+.text-light {
+    color: #fafafa !important;
+}
+.text-silentBlack {
+    color: $silentBlack;
+}
+.text-silentGray {
+    color: $silentGray;
+}
+.text-lightgray {
+    color: #BCBCBC;
+}
+// FONT SIZE
+.fontX {
+    font-size: $fontX;
+}
+.fontXX {
+    font-size: $fontXX;
+}
+.fontXS {
+    font-size: $fontXS;
+}
+.fontXM {
+    font-size: $fontXM;
+}
+.fontXL {
+    font-size: $fontXL;
+}
+.fontS {
+    font-size: $fontS;
+}
+.fontSX {
+    font-size: $fontSX;
+}
+.fontSS {
+    font-size: $fontSS;
+}
+.fontSM {
+    font-size: $fontSM;
+}
+.fontSL {
+    font-size: $fontSL;
+}
+.fontM {
+    font-size: $fontM;
+}
+.fontMX {
+    font-size: $fontMX;
+}
+.fontMS {
+    font-size: $fontMS;
+}
+.fontMM {
+    font-size: $fontMM;
+}
+.fontML {
+    font-size: $fontML;
+}
+.fontL {
+    font-size: $fontL;
+}
+.fontLX {
+    font-size: $fontLX;
+}
+.fontLS {
+    font-size: $fontLS;
+}
+.fontLM {
+    font-size: $fontLM;
+}
+.fontLL {
+    font-size: $fontLL;
+}
+.font2XL {
+    font-size: $font2XL;
+}
+.font3XL {
+    font-size: $font3XL;
+}
+.font4XL {
+    font-size: $font4XL;
+}
+.font5XL {
+    font-size: $font5XL;
+}
+.font6XL {
+    font-size: $font6XL;
+}
+.font7XL {
+    font-size: $font7XL;
+}
+.font8XL {
+    font-size: $font8XL;
+}
+.font9XL {
+    font-size: $font9XL;
+}
+.fontXXL {
+    font-size: $fontXXL;
+}
+.res14 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontXM;
+    }
+}
+.res15 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontXL;
+    }
+}
+.res17 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontSX;
+    }
+}
+.res18 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontSS;
+    }
+}
+.res16 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontS;
+    }
+}
+.res19{
+    @include media-breakpoint-down(lg) {
+        font-size: $fontSM;
+    }
+}
+.res20{
+    @include media-breakpoint-down(lg) {
+        font-size: $fontSL;
+    }
+}
+.res23 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontM;
+    }
+}
+.res25 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontMS;
+    }
+}
+.res26 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontMM;
+    }
+}
+.res27 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontML;
+    }
+}
+.res31 {
+    @include media-breakpoint-down(lg) {
+        font-size: $fontLM;
+    }
+}
+.res33 {
+    @include media-breakpoint-down(lg) {
+        font-size: $font2XL;
+    }
+}
+.res37{
+    @include media-breakpoint-down(lg) {
+        font-size: 37px;
+    }
+}
+.res40 {
+    @include media-breakpoint-down(lg) {
+        font-size: $font5XL;
+    }
+}
+.res43 {
+    @include media-breakpoint-down(lg) {
+        font-size: 43px;
+    }
+}
+.res49 {
+    @include media-breakpoint-down(lg) {
+        font-size: 49px;
+    }
+}
+.res54 {
+    @include media-breakpoint-down(lg) {
+        font-size: 54px;
+    }
+}
+.res91 {
+    @include media-breakpoint-down(lg) {
+        font-size: 91px;
+    }
+}
+// LETTER SPACING
+.spaceX {
+    letter-spacing: $spaceX;
+}
+.spaceXX {
+    letter-spacing: $spaceXX;
+}
+.spaceXS {
+    letter-spacing: $spaceXS;
+}
+.spaceXM {
+    letter-spacing: $spaceXM;
+}
+.spaceXL {
+    letter-spacing: $spaceXL;
+}
+.spaceS {
+    letter-spacing: $spaceS;
+}
+.spaceSX {
+    letter-spacing: $spaceSX;
+}
+.spaceSS {
+    letter-spacing: $spaceSS;
+}
+.spaceSM {
+    letter-spacing: $spaceSM;
+}
+.spaceSL {
+    letter-spacing: $spaceSL;
+}
+.spaceM {
+    letter-spacing: $spaceM;
+}
+.spaceMX {
+    letter-spacing: $spaceMX;
+}
+.spaceMS {
+    letter-spacing: $spaceMS;
+}
+.spaceMM {
+    letter-spacing: $spaceMM;
+}
+.spaceML {
+    letter-spacing: $spaceML;
+}
+.spaceL {
+    letter-spacing: $spaceL;
+}
+.spaceLX {
+    letter-spacing: $spaceLX;
+}
+.res-leading {
+    @include media-breakpoint-down(lg) {
+        line-height: initial !important;
+    }
+}
+.res-space-03 {
+    @include media-breakpoint-down(lg) {
+        letter-spacing: 0.3px;
+    }
+}
+.res-space-19 {
+    @include media-breakpoint-down(lg) {
+        letter-spacing: $spaceSM;
+    }
+}
+.res-space-78 {
+    @include media-breakpoint-down(lg) {
+        letter-spacing: $spaceMS;
+    }
+}
+// BORDER RADIUS
+.borderRadiusX {
+    border-radius: $borderRadiusX;
+}
+.borderRadiusS {
+    border-radius: $borderRadiusS;
+}
+// BORDER
+.border-gray {
+    border: 1px solid $gray;
+}
+.border-lightgray {
+    border: 1px solid #BCBCBC;
+}
+.border-extraLightgray {
+    border: 1px solid rgba(112, 112, 112, 0.18);
+}
+.smallLeading {
+    line-height: $smallLeading;
+}
+.mediumLeading {
+    line-height: $mediumLeading;
+}
+.leading {
+    line-height: $Leading;
+}
+// OTHERS CSS
+.rounded-left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.rounded-top {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.res-shadow-none {
+box-shadow:none !important;
+}
+.opacity-lg-50{
+    @include media-breakpoint-up(lg) {
+        opacity:0.50;
+    }
+}

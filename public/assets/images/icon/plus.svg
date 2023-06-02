@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Rectangle 1599 (1)-svg</title>
+	<defs>
+		<image  width="44" height="44" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAAXNSR0IB2cksfwAAAHJQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////XlhBxAAAACZ0Uk5TABAwwL/w7/8MCwcdCBcSNi6oz/q3x9TDwdO68gEDDz7OzaXMyqbv6Q4jAAAApElEQVR4nO2Syw6CMBRERwodClpFq2C1Ij7+/xclbilJu9CAcVZNc3JzOr2ALwvvrT+JSCPgTCbhMBkBR03OZDDba0Q5f0xjMtVNRCOYncUP5rkqynIJrLTuj8V6rLpNteUwO9LseahZN2QqeLSk7emTh/XnPfysoAB3cQ4OhYJuKa8dupsxpsHd4vHsYKuxB/6X/1sawewsln+o8ePVQYhwdiwvh2cIxzZFpIEAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="-6" y="-6"/>
+</svg>

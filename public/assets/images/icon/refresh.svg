@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 47" width="47" height="47">
+	<title>Ellipse 257 (1)-svg</title>
+	<defs>
+		<image width="21" height="21" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC42MDciIGhlaWdodD0iMjAuNzY4IiB2aWV3Qm94PSIwIDAgMjAuNjA3IDIwLjc2OCI+CiAgPHBhdGggaWQ9IlBhdGhfNDAzNCIgZGF0YS1uYW1lPSJQYXRoIDQwMzQiIGQ9Ik0xMTcuNzM5LDM1LjgzOWExMC4zLDEwLjMsMCwwLDAtNy43NzcsMy41MzFsLS4wMjMtLjAyMy0yLjQyMy0yLjQ2OVY0NS4wN2g4LjA1NGwtMi4zNzctMi40MjNhNS43NzIsNS43NzIsMCwwLDEsNC41NDYtMi4yNjEsNS44MzgsNS44MzgsMCwxLDEsMCwxMS42NzZ2NC41NDZhMTAuMzg0LDEwLjM4NCwwLDEsMCwwLTIwLjc2OFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDcuNTE2IC0zNS44MzkpIiBmaWxsPSIjY2JiNDg0Ii8+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+		.s0 { opacity: .2;fill: #ffffff } 
+	</style>
+	<use id="Path 4034" href="#img1" transform="matrix(1,0,0,1,13,13)"/>
+	<g id="Layer">
+		<path id="Ellipse_257-2" class="s0" d="m23.5 47c-13 0-23.5-10.5-23.5-23.5 0-13 10.5-23.5 23.5-23.5 13 0 23.5 10.5 23.5 23.5 0 13-10.5 23.5-23.5 23.5z"/>
+	</g>
+</svg>

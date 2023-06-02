@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 47" width="47" height="47">
+	<title>Ellipse 257 (1)-svg</title>
+	<defs>
+		<image width="18" height="23" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNy4xNjEiIGhlaWdodD0iMjIuODQ1IiB2aWV3Qm94PSIwIDAgMTcuMTYxIDIyLjg0NSI+CiAgPGcgaWQ9Ikdyb3VwXzMxNjUiIGRhdGEtbmFtZT0iR3JvdXAgMzE2NSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwKSI+CiAgICA8cGF0aCBpZD0iUGF0aF80MDQxIiBkYXRhLW5hbWU9IlBhdGggNDA0MSIgZD0iTTMyMy44LDk2Ljg4MWwtLjA1My0uMDA1Yy0uNC0uMDgtMS44MjctMi42MjktMS44MjctMy40NTZhMS44NzgsMS44NzgsMCwwLDEsMy43NTcsMGMwLC43NzYtMS40NTYsMy40NjItMS44NzcsMy40NjJabTAtNC44YTEuMzQ0LDEuMzQ0LDAsMCwwLTEuMzQyLDEuMzQxLDguMTA3LDguMTA3LDAsMCwwLDEuMzM3LDIuNzc3LDguNDM3LDguNDM3LDAsMCwwLDEuMzQ3LTIuNzc3QTEuMzQzLDEuMzQzLDAsMCwwLDMyMy44LDkyLjA3OFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTUuMjE3IC05MS41NDIpIiBmaWxsPSIjY2JiNDg0IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICAgIDxwYXRoIGlkPSJQYXRoXzQwNDIiIGRhdGEtbmFtZT0iUGF0aCA0MDQyIiBkPSJNMjIzLjA1NiwxNjUuMDU1di0xLjIxYS41MzUuNTM1LDAsMCwwLS41MzUtLjUzNUgyMTguMjNhLjUzNy41MzcsMCwwLDAtLjUzNi41MzV2MS4yMTFhOC41ODEsOC41ODEsMCwxLDAsNS4zNjMsMFptLTIuMDc3LDE1LjQyNWE3LjUsNy41LDAsMCwxLTQuNy0xMy4zNTYsOC41NzEsOC41NzEsMCwwLDAsNiwxMy4yMzgsNy41MjksNy41MjksMCwwLDEtMS4zLjExOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMTEuNzk1IC0xNTguOTQyKSIgZmlsbD0iI2NiYjQ4NCIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiAgPC9nPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+		.s0 { opacity: .2;fill: #ffffff } 
+	</style>
+	<use id="Group 3165" href="#img1" transform="matrix(1,0,0,1,15,12)"/>
+	<g id="Layer">
+		<path id="Ellipse_257-2" class="s0" d="m23.5 47c-13 0-23.5-10.5-23.5-23.5 0-13 10.5-23.5 23.5-23.5 13 0 23.5 10.5 23.5 23.5 0 13-10.5 23.5-23.5 23.5z"/>
+	</g>
+</svg>
