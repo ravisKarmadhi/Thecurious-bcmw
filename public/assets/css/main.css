@@ -15939,7 +15939,7 @@ main {
 }
 @media (max-width: 991.98px) {
   main {
-    padding-top: 300px;
+    padding-top: 292px;
   }
 }
 
@@ -15956,6 +15956,10 @@ main {
   .res-y-auto::-webkit-scrollbar {
     display: none !important;
   }
+}
+
+.width-position {
+  width: -webkit-fill-available !important;
 }
 
 .slick-overflow {
@@ -16684,6 +16688,13 @@ button,
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.quantity-btn {
+  height: 22px !important;
+  line-height: 22px !important;
+  width: 22px !important;
+  font-family: "Gotham-Book, Gotham";
+}
+
 .checkbox-rounded.form-group-checkbox label::before {
   content: "";
   -webkit-appearance: none;
@@ -16711,8 +16722,6 @@ button,
   display: block;
   left: 3px;
   position: absolute;
-  top: 50%;
-  transform: translate(0%, -50%);
   width: 7px;
   border-radius: 50%;
   min-width: 7px;
@@ -16721,16 +16730,18 @@ button,
 }
 @media (max-width: 991.98px) {
   .checkbox-rounded.form-group-checkbox input:checked + label::after {
-    top: 52%;
-    left: 4px;
-    transform: translate(0%, -52%);
+    min-width: 6px;
+    width: 6px;
+    height: 6px;
   }
+}
+.checkbox-rounded.form-group-checkbox input:checked + .visa::after {
+  top: 15.5px;
 }
 @media (max-width: 991.98px) {
   .checkbox-rounded.form-group-checkbox input:checked + .visa::after {
-    top: 51%;
-    left: 4px;
-    transform: translate(0%, -51%);
+    left: 5px;
+    top: 16px;
   }
 }
 .checkbox-rounded.form-group-square label::before {
@@ -16765,6 +16776,16 @@ button,
 @media (max-width: 991.98px) {
   .checkbox-rounded.form-group-square input:checked + label::after {
     top: 6px;
+  }
+}
+
+.shipping-method .checkbox-rounded.form-group-checkbox input:checked + label::after {
+  top: 6px;
+}
+@media (max-width: 991.98px) {
+  .shipping-method .checkbox-rounded.form-group-checkbox input:checked + label::after {
+    left: 5px;
+    top: 11px;
   }
 }
 
@@ -16887,10 +16908,11 @@ button,
     padding: 48px 36px 50px 36px;
     background-color: #ffffff !important;
   }
-  .add-product-modal .inner-modal button {
+  .add-product-modal .inner-modal a {
     height: 66px;
+    line-height: 66px;
   }
-  .add-product-modal .inner-modal button.view-bag-btn {
+  .add-product-modal .inner-modal a.view-bag-btn {
     border: 1px solid #1A191C !important;
   }
 }
@@ -16941,8 +16963,8 @@ button,
     padding: 14px 36px !important;
     max-width: 100% !important;
     box-shadow: none !important;
-    top: 230px !important;
-    height: calc(100vh - 230px);
+    top: 220px !important;
+    height: calc(100vh - 220px);
     overflow-y: auto;
   }
 }
@@ -17001,7 +17023,7 @@ button,
     overflow-x: hidden;
   }
   .order-complete-modal .modal-img {
-    height: 400px !important;
+    height: 290px !important;
   }
   .order-complete-modal .modal-content-main {
     height: 100% !important;
@@ -17021,6 +17043,10 @@ button,
   }
 }
 
+.video-modal {
+  max-width: 900px !important;
+}
+
 .latest-product-slider img {
   height: 650px !important;
 }
@@ -17036,7 +17062,6 @@ button,
   width: auto;
   bottom: 50%;
   right: 80px;
-  z-index: 1;
 }
 @media (max-width: 991.98px) {
   .latest-product-slider .slick-dots {
@@ -17379,6 +17404,10 @@ header .trust-point {
     top: 100px !important;
     height: calc(100vh - 100px);
   }
+  .header-fixed .logo-center {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   .header-fixed .search-toggle {
     margin-top: 0 !important;
   }
@@ -17420,13 +17449,11 @@ header .trust-point {
   padding: 20px 0;
   background-color: #141414 !important;
 }
-@media (min-width: 1200px) {
-  .header-fixed .header .full-logo {
-    display: none;
-  }
-  .header-fixed .header .half-logo {
-    display: block;
-  }
+.header-fixed .header .full-logo {
+  display: none;
+}
+.header-fixed .header .half-logo {
+  display: block;
 }
 @media (max-width: 991.98px) {
   .header-fixed.hide-top .logo {
@@ -17445,6 +17472,9 @@ header .trust-point {
   }
 }
 
+.footer-section {
+  z-index: 1;
+}
 .footer-section .insta-footer {
   background: linear-gradient(to bottom, transparent 0%, transparent 50%, #1D1D1D 50%, #1D1D1D 100%);
 }
@@ -17592,7 +17622,7 @@ footer .mail-chip button {
 }
 @media (max-width: 991.98px) {
   .home-benefits {
-    padding-top: 90px;
+    padding-top: 110px;
   }
 }
 .home-benefits .single-benefit {
@@ -18081,7 +18111,7 @@ footer .mail-chip button {
 @media (max-width: 991.98px) {
   .delivery-return-section {
     padding-top: 180px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
   }
 }
 

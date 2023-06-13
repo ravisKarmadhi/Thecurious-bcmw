@@ -73,8 +73,9 @@
         @include media-breakpoint-down(lg) {
             padding:48px 36px 50px 36px;
             background-color:#ffffff !important;
-            button{
+            a{
                 height:66px;
+                line-height:66px;
                 &.view-bag-btn{
                     border:1px solid #1A191C !important;
                 }   
@@ -120,8 +121,8 @@
         padding:14px 36px !important;
         max-width:100% !important;
         box-shadow:none !important;
-        top:230px !important;
-        height:calc(100vh - 230px);
+        top:220px !important;
+        height:calc(100vh - 220px);
         overflow-y: auto;
     }
     .close-btn{
@@ -172,7 +173,7 @@
         height:100% !important;
         overflow-x: hidden;
         .modal-img{
-            height:400px !important;
+            height:290px !important;
         }
         .modal-content-main{
             height: 100% !important;
@@ -193,4 +194,8 @@
             font-family: "ArticulatCF-Light";
         }
     }
+}
+// VIDEO MODAL DESIGN
+.video-modal{
+    max-width: 900px !important;
 }

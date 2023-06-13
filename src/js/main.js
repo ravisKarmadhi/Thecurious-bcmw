@@ -87,7 +87,7 @@ $(document).ready(function () {
     $("#delivery-modal").addClass("d-none");
     $("html").removeClass("overflow-hidden");
   });
-  $("#open-product-btn").click(function () {
+  $(".open-product-btn").click(function () {
     $("#product-modal").removeClass("d-none");
     $("html").addClass("overflow-hidden");
   });
@@ -99,6 +99,7 @@ $(document).ready(function () {
     if (windowWidth > 992) {
       $("#search-desktop").addClass("opacity-0");
       $("#input-search").val("");
+      $(".search-toggle").addClass("opacity-0");
     }
     $("#search-list").removeClass("d-none");
     if (windowWidth < 992) {
@@ -112,6 +113,10 @@ $(document).ready(function () {
     $("#search-desktop").removeClass("opacity-0");
     $("#search-list").addClass("d-none");
     $("#input-search").val("");
+    if (windowWidth > 992) {
+      $(".search-toggle").removeClass("opacity-0");
+    }
+    
   });
   $("#close-list-btn").click(function () {
     $("#toggle-btn").removeClass("d-none");
@@ -164,5 +169,71 @@ $(document).ready(function () {
   $("#close-filter-btn").click(function () {
     $("#filter-section").addClass("d-none");
     $("html").removeClass("overflow-hidden");
+  });
+});
+
+$(document).ready(function() {
+  // Event listener for search input
+  $("#searchInput").on("keyup", function() {
+    var query = $(this).val().toLowerCase();
+
+    // Filter cards based on search input
+    $(".single-card").each(function() {
+      var cardText = $(this).text().toLowerCase();
+
+      if (cardText.includes(query)) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
+  });
+});
+
+
+$(document).ready(function() {
+  // Event listener for search input
+  $("#searchInput2").on("keyup", function() {
+    var query = $(this).val().toLowerCase();
+
+    // Filter cards based on search input
+    $(".popular").each(function() {
+      var cardText = $(this).text().toLowerCase();
+
+      if (cardText.includes(query)) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
+  });
+});
+
+
+$(document).ready(function() {
+  // Event listener for search input
+  $("#input-search").on("keyup", function() {
+    var query = $(this).val().toLowerCase();
+
+    // Filter cards based on search input
+    $(".single-card").each(function() {
+      var cardText = $(this).text().toLowerCase();
+
+      if (cardText.includes(query)) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
+  });
+
+  $(".video-section ").click(function () {
+    if ($("#video").get(0).paused) {
+      $("#video").trigger('play');
+      $(".play").fadeOut(500);
+    } else {
+      $("#video").trigger('pause');
+      $(".play").fadeIn(500);
+    }
   });
 });

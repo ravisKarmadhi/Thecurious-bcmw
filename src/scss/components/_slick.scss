@@ -13,7 +13,6 @@
         width: auto;
         bottom: 50%;
         right: 80px;
-        z-index: 1;
         @include media-breakpoint-down(lg) {
             display: block;
             transform: rotate(0deg);

@@ -116,6 +116,10 @@ header {
             top: 100px !important;
             height: calc(100vh - 100px);
         }
+        .logo-center{
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
         .search-toggle {
             margin-top: 0 !important;
             #toggle-btn {
@@ -156,14 +160,14 @@ header {
     .header {
         padding: 20px 0;
         background-color: $extraLightBlack !important;
-        @include media-breakpoint-up(xl) {
+      
             .full-logo {
                 display: none;
             }
             .half-logo {
                 display: block;
             }
-        }
+        
     }
     &.hide-top {
         @include media-breakpoint-down(lg) {

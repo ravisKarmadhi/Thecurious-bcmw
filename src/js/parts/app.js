@@ -161,7 +161,7 @@ export class App {
       asNavFor: '.main-slider',
       dots: true,
       arrows: true,
-      infinite: false,
+      infinite: true,
       vertical: true,
       focusOnSelect: true,
       prevArrow: $(".pre-order-btn .slick--prev"),

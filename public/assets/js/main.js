@@ -3378,7 +3378,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#delivery-modal").addClass("d-none");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("html").removeClass("overflow-hidden");
   });
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()("#open-product-btn").click(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".open-product-btn").click(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#product-modal").removeClass("d-none");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("html").addClass("overflow-hidden");
   });
@@ -3390,6 +3390,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     if (windowWidth > 992) {
       jquery__WEBPACK_IMPORTED_MODULE_0___default()("#search-desktop").addClass("opacity-0");
       jquery__WEBPACK_IMPORTED_MODULE_0___default()("#input-search").val("");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".search-toggle").addClass("opacity-0");
     }
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#search-list").removeClass("d-none");
     if (windowWidth < 992) {
@@ -3403,6 +3404,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#search-desktop").removeClass("opacity-0");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#search-list").addClass("d-none");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#input-search").val("");
+    if (windowWidth > 992) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".search-toggle").removeClass("opacity-0");
+    }
   });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()("#close-list-btn").click(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#toggle-btn").removeClass("d-none");
@@ -3455,6 +3459,63 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()("#close-filter-btn").click(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#filter-section").addClass("d-none");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("html").removeClass("overflow-hidden");
+  });
+});
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  // Event listener for search input
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("#searchInput").on("keyup", function () {
+    var query = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).val().toLowerCase();
+
+    // Filter cards based on search input
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".single-card").each(function () {
+      var cardText = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).text().toLowerCase();
+      if (cardText.includes(query)) {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).show();
+      } else {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).hide();
+      }
+    });
+  });
+});
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  // Event listener for search input
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("#searchInput2").on("keyup", function () {
+    var query = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).val().toLowerCase();
+
+    // Filter cards based on search input
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".popular").each(function () {
+      var cardText = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).text().toLowerCase();
+      if (cardText.includes(query)) {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).show();
+      } else {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).hide();
+      }
+    });
+  });
+});
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  // Event listener for search input
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("#input-search").on("keyup", function () {
+    var query = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).val().toLowerCase();
+
+    // Filter cards based on search input
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".single-card").each(function () {
+      var cardText = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).text().toLowerCase();
+      if (cardText.includes(query)) {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).show();
+      } else {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).hide();
+      }
+    });
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".video-section ").click(function () {
+    if (jquery__WEBPACK_IMPORTED_MODULE_0___default()("#video").get(0).paused) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#video").trigger('play');
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".play").fadeOut(500);
+    } else {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#video").trigger('pause');
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".play").fadeIn(500);
+    }
   });
 });
 
@@ -3606,7 +3667,7 @@ var App = /*#__PURE__*/function () {
         asNavFor: '.main-slider',
         dots: true,
         arrows: true,
-        infinite: false,
+        infinite: true,
         vertical: true,
         focusOnSelect: true,
         prevArrow: $(".pre-order-btn .slick--prev"),

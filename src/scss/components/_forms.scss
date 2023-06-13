@@ -15,6 +15,7 @@
                 cursor: pointer;
                 border-radius: 50%;
                 margin-right: 20px;
+
                 @include media-breakpoint-down(lg) {
                     width: 16px;
                     min-width: 16px;
@@ -22,36 +23,38 @@
                 }
             }
         }
+
         input:checked+label {
             &::after {
                 content: "";
                 display: block;
                 left: 3px;
                 position: absolute;
-                top: 50%;
-                transform: translate(0%, -50%);
                 width: 7px;
                 border-radius: 50%;
                 min-width: 7px;
                 height: 7px;
                 background-color: $extraLightBlack;
                 @include media-breakpoint-down(lg) {
-                    top: 52%;
-                    left:4px;
-                    transform: translate(0%, -52%);
+                    min-width: 6px;
+                    width: 6px;
+                    height: 6px;
                 }
             }
         }
+
         input:checked+.visa {
             &::after {
+                top: 15.5px;
+
                 @include media-breakpoint-down(lg) {
-                    top: 51%;
-                    left:4px;
-                    transform: translate(0%, -51%);
+                    left: 5px;
+                    top: 16px;
                 }
             }
         }
     }
+
     &.form-group-square {
         label {
             &::before {
@@ -70,6 +73,7 @@
                 border-radius: 5px;
             }
         }
+
         input:checked+label {
             &::after {
                 content: "";
@@ -84,8 +88,26 @@
                 transform: rotate(45deg);
                 -webkit-transform: rotate(45deg);
                 -ms-transform: rotate(45deg);
+
                 @include media-breakpoint-down(lg) {
-                    top:6px;
+                    top: 6px;
+                }
+            }
+        }
+    }
+}
+
+.shipping-method {
+    .checkbox-rounded {
+        &.form-group-checkbox {
+            input:checked+label {
+                &::after {
+                    top: 6px;
+                    @include media-breakpoint-down(lg) {
+                        
+                        left: 5px;
+                        top: 11px;
+                    }
                 }
             }
         }

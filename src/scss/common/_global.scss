@@ -90,7 +90,7 @@ input, textarea{
 main{
   padding-top:230px;
   @include media-breakpoint-down(lg) {
-    padding-top:300px;
+    padding-top:292px;
   }
 }
 .res-w-100{
@@ -105,4 +105,8 @@ main{
       display: none !important;
   }
   }
+}
+
+.width-position{
+  width: -webkit-fill-available !important;
 }
