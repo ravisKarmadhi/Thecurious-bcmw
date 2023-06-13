@@ -3460,6 +3460,15 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#filter-section").addClass("d-none");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("html").removeClass("overflow-hidden");
   });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("#close-btn-video").click(function () {
+    if (jquery__WEBPACK_IMPORTED_MODULE_0___default()("#video").get(0).paused) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#video").trigger('play');
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".play").fadeOut(500);
+    } else {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#video").trigger('pause');
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(".play").fadeIn(500);
+    }
+  });
 });
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   // Event listener for search input

@@ -170,6 +170,15 @@ $(document).ready(function () {
     $("#filter-section").addClass("d-none");
     $("html").removeClass("overflow-hidden");
   });
+  $("#close-btn-video").click(function () {
+    if ($("#video").get(0).paused) {
+      $("#video").trigger('play');
+      $(".play").fadeOut(500);
+    } else {
+      $("#video").trigger('pause');
+      $(".play").fadeIn(500);
+    }
+  });
 });
 
 $(document).ready(function() {
