@@ -17408,6 +17408,9 @@ header .trust-point {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+  .header-fixed .search-cart {
+    width: 50% !important;
+  }
   .header-fixed .search-toggle {
     margin-top: 0 !important;
   }
