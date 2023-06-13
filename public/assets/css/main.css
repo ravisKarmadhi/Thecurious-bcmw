@@ -15962,6 +15962,10 @@ main {
   width: -webkit-fill-available !important;
 }
 
+.layer-image {
+  border-radius: 7px;
+}
+
 .slick-overflow {
   overflow: hidden;
 }
@@ -16678,7 +16682,7 @@ button,
   width: 100%;
   height: 41px;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9;
+  z-index: 1;
 }
 .pre-order-btn button.slick-disabled {
   display: none !important;
