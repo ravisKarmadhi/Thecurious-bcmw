@@ -41,17 +41,17 @@ $(window).scroll(function () {
 $(document).ready(function () {
   function removeClass() {
     $("#popup").removeClass("d-none");
-    // if (windowWidth < 992) {
-    //   $("html").addClass("overflow-hidden");
-    // }
+    if (windowWidth < 992) {
+      $("html").addClass("overflow-hidden");
+    }
   }
   var delay = 3000;
   setTimeout(removeClass, delay);
   $("#closePopup").click(function () {
     $("#popup").addClass("d-none");
-    // if (windowWidth < 992) {
-    //   $("html").removeClass("overflow-hidden");
-    // }
+    if (windowWidth < 992) {
+      $("html").removeClass("overflow-hidden");
+    }
   });
   $("#read-more").click(function () {
     $("#details").removeClass("details");

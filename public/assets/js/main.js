@@ -3330,20 +3330,18 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scroll(function () {
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   function removeClass() {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#popup").removeClass("d-none");
-    // if (windowWidth < 992) {
-    //   $("html").addClass("overflow-hidden");
-    // }
+    if (windowWidth < 992) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("html").addClass("overflow-hidden");
+    }
   }
-
   var delay = 3000;
   setTimeout(removeClass, delay);
   jquery__WEBPACK_IMPORTED_MODULE_0___default()("#closePopup").click(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#popup").addClass("d-none");
-    // if (windowWidth < 992) {
-    //   $("html").removeClass("overflow-hidden");
-    // }
+    if (windowWidth < 992) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("html").removeClass("overflow-hidden");
+    }
   });
-
   jquery__WEBPACK_IMPORTED_MODULE_0___default()("#read-more").click(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#details").removeClass("details");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()("#read-more").addClass("d-none");
