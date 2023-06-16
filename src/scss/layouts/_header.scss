@@ -77,9 +77,9 @@ header {
             .menu-links {
                 position: absolute;
                 z-index: 99;
-                top: 227px;
+                top: 220px;
                 left: 0;
-                height: calc(100vh - 227px);
+                height: calc(100vh - 220px);
                 overflow-y: auto !important;
                 ul {
                     max-width: 357px;
@@ -113,15 +113,20 @@ header {
     @include generate-transition(all, 300ms, ease);
     @include media-breakpoint-down(lg) {
         .menu-links {
-            top: 100px !important;
-            height: calc(100vh - 100px);
+            top: 95px !important;
+            height: calc(100vh - 95px);
         }
         .logo-center{
             padding-left: 0 !important;
             padding-right: 0 !important;
         }
+        .fixed-menu{
+            width:60% !important;
+            padding-right:0 !important;
+            justify-content:end !important;
+        }
         .search-cart{
-            width:50% !important;
+            width:40% !important;
         }
         .search-toggle {
             margin-top: 0 !important;
@@ -163,14 +168,17 @@ header {
     .header {
         padding: 20px 0;
         background-color: $extraLightBlack !important;
-      
+        .full-logo {
+            width:100% !important;
+        }
+        @include media-breakpoint-up(lg) {
             .full-logo {
                 display: none;
             }
             .half-logo {
                 display: block;
             }
-        
+        }
     }
     &.hide-top {
         @include media-breakpoint-down(lg) {

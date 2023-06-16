@@ -17367,9 +17367,9 @@ header .header .serach-cart .cart-btn .badge {
   header .header .menu-links {
     position: absolute;
     z-index: 99;
-    top: 227px;
+    top: 220px;
     left: 0;
-    height: calc(100vh - 227px);
+    height: calc(100vh - 220px);
     overflow-y: auto !important;
   }
   header .header .menu-links ul {
@@ -17405,15 +17405,20 @@ header .trust-point {
 }
 @media (max-width: 991.98px) {
   .header-fixed .menu-links {
-    top: 100px !important;
-    height: calc(100vh - 100px);
+    top: 95px !important;
+    height: calc(100vh - 95px);
   }
   .header-fixed .logo-center {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+  .header-fixed .fixed-menu {
+    width: 60% !important;
+    padding-right: 0 !important;
+    justify-content: end !important;
+  }
   .header-fixed .search-cart {
-    width: 50% !important;
+    width: 40% !important;
   }
   .header-fixed .search-toggle {
     margin-top: 0 !important;
@@ -17457,10 +17462,15 @@ header .trust-point {
   background-color: #141414 !important;
 }
 .header-fixed .header .full-logo {
-  display: none;
+  width: 100% !important;
 }
-.header-fixed .header .half-logo {
-  display: block;
+@media (min-width: 992px) {
+  .header-fixed .header .full-logo {
+    display: none;
+  }
+  .header-fixed .header .half-logo {
+    display: block;
+  }
 }
 @media (max-width: 991.98px) {
   .header-fixed.hide-top .logo {
@@ -18128,7 +18138,7 @@ footer .mail-chip button {
 }
 @media (max-width: 991.98px) {
   .award-slider-products {
-    padding-bottom: 100px;
+    padding-bottom: 130px;
   }
 }
 

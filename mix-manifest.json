@@ -56,6 +56,7 @@
     "/public/assets/images/logo/chat.png": "/public/assets/images/logo/chat.png",
     "/public/assets/images/logo/klarna.png": "/public/assets/images/logo/klarna.png",
     "/public/assets/images/logo/logo.png": "/public/assets/images/logo/logo.png",
+    "/public/assets/images/logo/pay-method - Copy.png": "/public/assets/images/logo/pay-method - Copy.png",
     "/public/assets/images/logo/pay-method.png": "/public/assets/images/logo/pay-method.png",
     "/public/assets/images/logo/payment.png": "/public/assets/images/logo/payment.png",
     "/public/assets/images/logo/res-chat.png": "/public/assets/images/logo/res-chat.png",
@@ -83,5 +84,6 @@
     "/public/assets/images/products/pro-8.png": "/public/assets/images/products/pro-8.png",
     "/public/assets/images/slider/slider-1.png": "/public/assets/images/slider/slider-1.png",
     "/public/assets/images/user.svg": "/public/assets/images/user.svg",
-    "/public/assets/images/logo/pay-method - Copy.png": "/public/assets/images/logo/pay-method - Copy.png"
+    "/public/assets/images/icon/minus.svg": "/public/assets/images/icon/minus.svg",
+    "/public/assets/images/icon/quantity-add.svg": "/public/assets/images/icon/quantity-add.svg"
 }
