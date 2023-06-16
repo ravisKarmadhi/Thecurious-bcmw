@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="204.819" viewBox="0 0 880 204.819">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0"/>
-      <stop offset="1" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <path id="jonny-gios-ayh8xpNMRn4-unsplash" d="M5,0H875a5,5,0,0,1,5,5V204.819H0V5A5,5,0,0,1,5,0Z" transform="translate(880 204.819) rotate(180)" fill="url(#linear-gradient)"/>
-</svg>
