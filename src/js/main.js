@@ -246,3 +246,20 @@ $(document).ready(function() {
     }
   });
 });
+
+$(document).ready(function() {
+  var fixedElements = $(".fixed-elements");
+  var footerSection = $(".footer-section");
+
+  $(window).scroll(function() {
+    var scrollTop = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    var footerOffset = footerSection.offset().top;
+
+    if (scrollTop + windowHeight >= footerOffset) {
+      fixedElements.addClass("d-none");
+    } else {
+      fixedElements.removeClass("d-none");
+    }
+  });
+});

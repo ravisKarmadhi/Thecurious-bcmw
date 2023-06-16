@@ -3525,6 +3525,20 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     }
   });
 });
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  var fixedElements = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".fixed-elements");
+  var footerSection = jquery__WEBPACK_IMPORTED_MODULE_0___default()(".footer-section");
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scroll(function () {
+    var scrollTop = jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scrollTop();
+    var windowHeight = jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).height();
+    var footerOffset = footerSection.offset().top;
+    if (scrollTop + windowHeight >= footerOffset) {
+      fixedElements.addClass("d-none");
+    } else {
+      fixedElements.removeClass("d-none");
+    }
+  });
+});
 
 /***/ }),
 
